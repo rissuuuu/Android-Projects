@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Overflow menu button -->
+        <item name="android:actionOverflowButtonStyle">@style/OverflowButton</item>
+    </style>
+    
+    <style name="OverflowButton" parent="android:Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_more_vert_black_24dp</item>
+        <item name="android:paddingLeft">@dimen/default_padding</item>
+    </style>
+
+    <style name="PaddingButton">
+        <item name="android:layout_marginTop">@dimen/button_vertical_margin</item>
+        <item name="android:layout_marginBottom">@dimen/button_vertical_margin</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <style name="NavigationItem">
+        <item name="android:textSize">14sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_bloquery"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Actionbar -->
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_bloquery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"/>
+
+        <!-- Main content view -->
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_bloquery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="26sp"
+            android:divider="@null"
+            android:dividerHeight="0dp"/>
+
+    </LinearLayout>
+
+    <!-- Navigation drawer -->
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_items_bloquery"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        style="@style/NavigationItem"
+        app:menu="@menu/drawer_items"/>
+
+</android.support.v4.widget.DrawerLayout>

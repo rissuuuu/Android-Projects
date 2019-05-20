@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Camera</string>
+    <string-array name="Block">
+        <item>A-Block</item>
+        <item>B-Block</item>
+        <item>C-Block</item>
+        <item>D-Block</item>
+        <item>E-Block</item>
+    </string-array>
+    <string-array name="Floor">
+        <item>Ground-floor</item>
+        <item>First-floor</item>
+        <item>Second-floor</item>
+        <item>Third-floor</item>
+    </string-array>
+    <string-array name="room_ground_Floor">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="room_1st_floor">
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="room_2nd_floor">
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="room_3rd_floor">
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+</resources>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Bloquery</string>
+    <string name="title_sign_up">Sign Up</string>
+    <string name="title_login">Log In</string>
+    <string name="title_bloquery">Bloquery</string>
+    <string name="title_activity_add_answer">Add Answer</string>
+    <string name="title_activity_add_question">Add Question</string>
+
+    <!-- General strings -->
+    <string name="prompt_name">Name</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+
+    <!-- Strings related to SignUp -->
+    <string name="action_create_account">Create account</string>
+    <string name="link_login">Already have an account? Login</string>
+
+    <!-- Strings related to Login -->
+    <string name="action_login">Login</string>
+    <string name="link_signup">Need an account? Sign Up</string>
+
+    <!-- Strings related to Bloquery -->
+    <string name="hello_world">Hello, World!</string>
+
+    <!-- Strings related to errors -->
+    <string name="auth_failed">Authorization failed</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- ActionBar strings -->
+    <string name="menu_answer">Add Answer</string>
+    <string name="button_text_add_answer">Add Answer</string>
+
+    <string name="menu_add_question">Add Question</string>
+    <string name="button_text_add_question">Add Question</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_user_profile">User Profile</string>
+    <string name="title_single_question">Single Question</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_activities"
+            android:icon="@drawable/activities"
+            android:title="Activities" />
+        <item
+            android:id="@+id/nav_updates"
+            android:icon="@drawable/updates"
+            android:title="Updates" />
+        <item
+            android:id="@+id/nav_trainings"
+            android:icon="@drawable/training"
+            android:title="Trainings" />
+        <item
+            android:id="@+id/nav_projects"
+            android:icon="@drawable/project"
+            android:title="Projects" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">ThubLogin</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_text"> The demand-supply gap scenario, exponential opportunities
+        and dynamic challenges in the 21st century call for a change in our thinking on
+        engineering practice and education. A transformation on the current engineering
+        education is the need of the hour. Growth of new knowledge together with rapidly
+        evolving technological skills, the skill to communicate across disciplines, the
+        ability to lead team-centered projects, contextualized problem formulation, and
+        hands-on experience are the present demands of the global industry. On contrary
+        to the present demands, students churned out from engineering colleges are not
+        equipped to meet the current industry needs due to the growing gap between
+        engineering practice, education and research which requires a lot of concern.
+        As a timely response, it is this concern for the student that has led Aditya to
+        initiate T-Hub: a perfect launch pad to the job world. T-Hub trains students in
+        various disciplines beyond technological labels besides equipping them with skills
+        and creativity required for advancement in their careers. Through its various programs
+        t-hub provides adequate opportunities for an unmatched knowledge base by imparting all
+        necessary skills to students and makes them job ready.  </string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>

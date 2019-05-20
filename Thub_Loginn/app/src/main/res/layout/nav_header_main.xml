@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:weightSum="1"
+    tools:background="@drawable/side_nav_bar">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="208dp"
+        android:layout_height="102dp"
+        android:layout_weight="0.54"
+        app:srcCompat="@drawable/thub_logodra" />
+
+    <TextView
+        android:layout_width="311dp"
+        android:layout_height="5dp"
+        android:layout_weight="0.30"
+        android:gravity="center"
+        android:text="ADITYA TECHNICAL - HUB"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@android:color/background_light"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="A PERFECT LAUNCH PAD TO THE JOB WORLD"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_light"
+        android:textSize="11sp" />
+
+</LinearLayout>
